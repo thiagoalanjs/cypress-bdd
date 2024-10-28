@@ -1,0 +1,6 @@
+{
+    "env":{
+        "environment": "tst",
+        "urlSite": "https://www.saucedemo.com"
+    }
+}
