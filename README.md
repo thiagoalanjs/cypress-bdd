@@ -50,6 +50,16 @@ yarn:test-headless
 ![image](https://github.com/user-attachments/assets/deae7662-f1fd-4572-b0f2-26ef9514dd65)
 
 
+
+##Executando via docker
+
+```bash
+docker build -t cypress .
+...
+
+![image](https://github.com/user-attachments/assets/9cdf8478-6ace-472e-8885-79325e8834b3)
+
+
 ## Reports
 ```bash
 
