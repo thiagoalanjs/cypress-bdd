@@ -51,10 +51,12 @@ yarn:test-headless
 
 
 ## Reports
+```bash
 
 npm install cypress-cucumber-preprocessor
 npm install cucumber-html-reporter --save-dev
 
+```
 
 ![image](https://github.com/user-attachments/assets/3ea7d6aa-7d0c-40c1-8fc6-53c5372c7c7c)
 
