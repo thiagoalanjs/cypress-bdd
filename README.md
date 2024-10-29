@@ -20,11 +20,13 @@ Npm - https://docs.npmjs.com/cli/v10/commands/npm-install
 
 Docker - https://docs.docker.com/engine/install/
 
-## Configurando o comando 
+## Executando automação 
 ```bash
-Para MAC/Linux   System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+#Rodando com yarn:
+yarn cy:test-open
 
-Para Windows   System.setProperty("webdriver.chrome.driver", "C://<PATH DO CHROMEDRIVER NA SUA MÁQUINA>");
+#Rodando modo headless:
+yarn:test-headless 
 ```
 
 ## Comando mvn
