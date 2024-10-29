@@ -28,8 +28,11 @@ yarn cy:test-open
 #Rodando modo headless:
 yarn:test-headless 
 ```
+![image](https://github.com/user-attachments/assets/ded6b6b9-1fa0-4a3a-a70e-88346fe2073f)
 
-## Comando mvn
+![image](https://github.com/user-attachments/assets/deae7662-f1fd-4572-b0f2-26ef9514dd65)
+
+
 
 ```bash
 "mvn clean install" - Instalação das dependências
