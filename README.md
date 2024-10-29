@@ -12,7 +12,7 @@ Site usado para os testes - https://www.saucedemo.com
 
 Cypress - https://www.cypress.io/install
 
-Cucumber com JS - https://cucumber.io/docs/installation/javascript/
+Cucumber com JS - https://cucumber.io/docs/installation/javascript/ 
 
 NodeJS - https://nodejs.org/pt/download/package-manager
 
@@ -22,16 +22,21 @@ Docker - https://docs.docker.com/engine/install/
 
 Yarn - https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
 
+
 ## Executando automação 
 ```bash
-  
+
+Trecho do arquivo package.json  
+...
 
 "scripts": {
     "cy:test-open": "yarn cypress open --env confiFile=test",
     "cy:test-headless": "yarn cypress run --env confiFile=test --browser chrome",
     "postcy:test-open": "node ./cypress/support/cucumber-html-reporter.js",
     "postcy:test-headless": "node ./cypress/support/cucumber-html-reporter.js"
-},
+}
+
+...
 
 
 #Rodando com yarn:
@@ -47,11 +52,9 @@ yarn:test-headless
 
 ## Reports
 
-Comando para gerar reports:
-
-"allure serve allure-results target/allure-results/" 
-
-![image](https://github.com/user-attachments/assets/e3d34349-d07f-4e6f-9f69-9c03063a588b)
+npm install cypress-cucumber-preprocessor
+npm install cucumber-html-reporter --save-dev
 
 
-![image](https://github.com/user-attachments/assets/65601414-ba03-4410-910c-4775aeb18985)
+![image](https://github.com/user-attachments/assets/3ea7d6aa-7d0c-40c1-8fc6-53c5372c7c7c)
+
