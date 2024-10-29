@@ -11,6 +11,10 @@ When("I add product to cart",()=>{
     inventaryPage.addProductCart()
 })
 
+Then("I finish checkout with empty fields", ()=>{
+    inventaryPage.finishOrderEmptyFields()
+})
+
 Then("I finish checkout order",()=>{
     inventaryPage.finishOrder()
 })

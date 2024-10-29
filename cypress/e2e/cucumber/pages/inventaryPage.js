@@ -18,6 +18,12 @@ class inventaryPage{
         cy.contains('Your order has been dispatched, and will arrive just as fast as the pony can get there!').should('be.visible')
         cy.getById('back-to-products').should('be.visible')
     }
+
+    static finishOrderEmptyFields(){
+        cy.getById('checkout').click()
+        cy.getById('continue').click()
+        cy.contains('Error: First Name is required').should('be.visible')
+    }
 }
 
 export default inventaryPage
