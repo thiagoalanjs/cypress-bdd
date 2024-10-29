@@ -26,3 +26,11 @@
 Cypress.Commands.add('getById', (selector) => {
     return cy.get(`#${selector}`)
 })
+
+Cypress.Commands.add('getByClass', (selector) => {
+    return cy.get(`.${selector}`)
+})
+
+Cypress.Commands.add('getByDataTest', (selector) => {
+    return cy.get(`[data-test="${selector}"]`)
+})

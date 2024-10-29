@@ -1,7 +1,6 @@
 import loginPage from "../../pages/loginPage"
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps"
 
-
 Given("I open the website", ()=>{
     loginPage.openUrl()
 })
